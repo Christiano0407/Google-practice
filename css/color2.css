@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.slider{
+    width: 600px;
+    position: relative;
+    overflow: hidden;  
+}
+.slider .container{
+    position: relative;
+    white-space: nowrap;
+}
+.slider .container *{
+    
+    white-space: normal;
+}
+.slider img {
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: -4px;
+}
