@@ -3,4 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+font-family: rig-shaded-bold-extrude, sans-serif;
 
+font-weight: 700;
+
+font-style: normal;
+}
+
+.hero_image{
+    height: 75vh;
+    background-color: aqua;
+    background-image: url(../img/marv1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-items: self-end;
+}
+
+.hero_image h1 {
+    color: white;
+   padding: 10px;
+   font-family: rig-shaded-bold-extrude, sans-serif;
+   font-weight: bold;
+   font-size: 60px;
+   margin: 0px;
+  
+}
+/* .hero_image p{
+    color: rgb(182, 182, 182);
+    font-family:rig-shaded-bold-extrude, sans-serif;
+    font-size: 20px;
+    
+} */
