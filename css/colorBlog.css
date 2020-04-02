@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    background-color: #405173;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -11,17 +12,21 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
- /* font-family: hoosier-daddy, sans-serif;
+    background-image: url(../img/Cover.png);
+    /* background-size: cover; */
+   /*  background-position: center;  */
+    background-repeat: no-repeat;
+/*  font-family: hoosier-daddy, sans-serif;
 
 font-weight: 400;
 
-font-style: normal; */
+font-style: normal;  
 
-/* font-family: hack, sans-serif;
+  font-family: hack, sans-serif;
 
 font-weight: 400;
 
-font-style: normal; */
+font-style: normal;   */
 }
 header{
     width: 100%;
@@ -38,7 +43,10 @@ a {
     font-family: hack, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: #fff; 
+}
+a:hover{
+    color: #405173;
 }
 header .header-icon-container {
     width: 100%;
@@ -58,5 +66,71 @@ header .header-icon-container .icons{
     
 }
 header .icons span {
+    color: #fff;
+}
+header .icons span:hover{
     color: #7A98BF;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background: #7A98BF;
+}
+nav .nav-logo-container{
+margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width: 250px;
+    height: auto;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: 20px;
+   
+}
+nav .profile-link a {
+    border-bottom:2px solid #405173;
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+.container .landing-text{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+.landing-text h1 {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: hoosier-daddy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;  
+    text-align: center;
+}
+.landing-text p{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: hack, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
 }
