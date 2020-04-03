@@ -142,4 +142,10 @@ nav .profile-link a:hover{
     color: white;
     background: #6503A6;
     padding: 10px 15px;
+    margin-bottom: 5px;
+}
+.blogs-button:hover{
+    background: #fff;
+    color: #6503A6;
+    cursor: pointer;
 }
