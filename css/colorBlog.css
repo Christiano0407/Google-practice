@@ -12,10 +12,10 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(../img/Cover.png);
+    /* background-image: url(../img/Cover.png); */
     /* background-size: cover; */
    /*  background-position: center;  */
-    background-repeat: no-repeat;
+  /*   background-repeat: no-repeat; */
 /*  font-family: hoosier-daddy, sans-serif;
 
 font-weight: 400;
@@ -46,13 +46,13 @@ a {
     color: #fff; 
 }
 a:hover{
-    color: #405173;
+    color: #fff;
 }
 header .header-icon-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background: #405173;
+    background: #6503A6;
 }
 header .header-icon-container .icons{
     width: 300px;
@@ -66,16 +66,16 @@ header .header-icon-container .icons{
     
 }
 header .icons span {
-    color: #fff;
+    color: #6503A6;
 }
 header .icons span:hover{
-    color: #7A98BF;
+    color: #fff;
 }
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
-    background: #7A98BF;
+    background: rgb(121, 59, 161);
 }
 nav .nav-logo-container{
 margin-left: 50px;
@@ -90,39 +90,44 @@ nav .profile-link{
     justify-content: flex-end;
     margin-right: 50px;
     font-size: 20px;
-   
+/*     color: #6503A6; */
 }
 nav .profile-link a {
-    border-bottom:2px solid #405173;
-}
-.container{
-    display: grid;
-    width: 100%;
-    height: 100vh;
-}
-.container .landing-text{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
-}
-.landing-text h1 {
-    display: flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    border-bottom:2px solid #fff;
     color: #fff;
-    justify-content: center;
-    align-items: center;
-    font-family: hoosier-daddy, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;  
-    text-align: center;
 }
-.landing-text p{
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
+nav .profile-link a:hover{
+    color: #6503A6;
+}
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url(../img/roberto-nickson-hLgYtX0rPgw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: transparent; */
+}
+.home-main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+ .home-main-title {
+    display: flex;
+    color: #fff;
+    font-size: 50px;  
+    font-family: bungee, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 10px;
+    
+}
+.home-main-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +135,31 @@ nav .profile-link a {
     font-weight: 400;
     font-style: normal;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 5px;
     text-align: center;
 }
+.home-main-button{
+    display: grid;
+    align-items: center;
+    width: 110px;
+    height: 50px;
+    background: #6503A6;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+   /*  letter-spacing: 10px; */
+} 
+.home-main-button:hover{
+    background: rgb(122, 58, 165);
+}
+.home-main-button a{
+    font-size: 15px;
+    font-family: hack, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+}
+
+
+
