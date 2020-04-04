@@ -9,6 +9,10 @@ body{
     padding: 0;
 
 }
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
 .home-body{
     top: 0;
     bottom: 0;
