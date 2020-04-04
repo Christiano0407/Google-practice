@@ -79,9 +79,66 @@ nav .profile-link a:hover{
     color: #6503A6;
 }
 
+.blog-main {
+   max-width: 980px;
+   margin: auto;
+    display: flex;
+}
+.blogs-news-container{
+    background-color:  rgba(190, 190, 190, 0.788);
+    padding: 0px 50px 40px;
+}
+.blogs-main-new h1{
+    /* display: flex; */
+ text-align: center;
+ font-family: bungee, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* margin-top: 10px; */
+    padding-bottom: 20px;
+}
+.blogs-news-img-container{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.blogs-news-img-container img {
+ width: 50%;
+ background-size: cover;
+ margin-top: 5px;
+ border-radius: 5px;
+ 
+}
+.blog-text{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.blog-text h2 {
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px; 
+}
+.blog-text p{
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    font-family: hack, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
 footer{
     width: 100%;
     height: 80px;
     background-color: #6503A6;
     border-top: 35px solid rgb(121, 59, 161);
+}
+footer p{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
 }
