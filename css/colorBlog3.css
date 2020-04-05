@@ -67,3 +67,63 @@ nav .nav-logo-container img{
 width: 250px;
 height: auto;
 }
+.contact-container{
+    padding: 5px 15px 10px;
+    background-color:rgb(202, 202, 202);
+ /* grid-template-rows: 1fr 1fr; */
+}
+.grid-contact{
+  max-width: 980px;
+  margin: auto;
+ background-color: rgba(255, 255, 255, 0.609);
+ /*  padding: 0px 50px 40px; */
+} 
+.grid-contact h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: bungee, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.post-contact{
+display: grid;
+grid-template-columns: 1fr 2fr;
+max-width: 100%;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+.post-contact img{
+width:35%;
+margin-left: 100px;
+}
+.post-contact h2{
+    font-family: bungee, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    grid-column: 2;
+}
+.post-contact p{
+    margin-bottom: 35px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: hack, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-column: 2;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background: #6503A6;
+    border-top: 35px solid rgb(121, 59, 161);
+}
+footer p{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
